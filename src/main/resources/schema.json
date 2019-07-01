@@ -1,0 +1,28 @@
+{ 
+    "title": "tweet", 
+    "type": "object", 
+    "properties": { 
+        "user_id": { "type": "text" },
+        "user_name": { "type": "text" },
+        "user_href": { "type": "text" },
+        "user_handle": { "type": "text" },
+        "user_avatar_href": { "type": "text" },
+        "tweet_id": { "type": "text" },
+        "tweet_item_id": { "type": "text" },
+        "tweet_conversation_id": { "type": "text" },
+        "tweet_text_html": { "type": "text" },
+        "tweet_time": { "type": "date" },
+        "tweet_nonce": { "type": "text" },
+        "tweet_language": { "type": "text" },
+        "tweet_timestamp": { "type": "timestamp" },
+        "tweet_permalink": { "type": "text" },
+        "mentions_count": { "type": "bigint" },
+        "retweets_count": { "type": "bigint" },
+        "favorites_count": { "type": "bigint" },
+        "is_reply": { "type": "boolean" },
+        "is_retweet": { "type": "boolean" },
+        "has_media": { "type": "boolean" },
+        "has_mentions": { "type": "boolean" },
+        "has_quote_tweet": { "type": "boolean" }
+    }
+}
