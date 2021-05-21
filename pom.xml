@@ -10,7 +10,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.mainClass>com.hiddenalphabet.aws.PostgreSQLSink</project.mainClass>
-    <flink.version>1.6.4</flink.version>
+    <flink.version>1.9.2</flink.version>
     <scala.version>2.11</scala.version>
   </properties>
   <build>
